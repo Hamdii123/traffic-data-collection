@@ -1,0 +1,15 @@
+/* HomePage.css */
+.background-container {
+    position: relative;
+  }
+  
+  .background-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(112, 112, 112, 0.705); /* Adjust the color and opacity as needed */
+  }
+  
